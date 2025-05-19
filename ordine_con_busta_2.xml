@@ -1,0 +1,362 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<StandardBusinessDocument xmlns="http://www.unece.org/cefact/namespaces/StandardBusinessDocumentHeader">
+	<StandardBusinessDocumentHeader>
+		<HeaderVersion>1.0</HeaderVersion>
+		<Sender>
+			<Identifier Authority="iso6523-actorid-upis">NSO0:A1LT9D</Identifier>
+		</Sender>
+		<Receiver>
+			<Identifier Authority="iso6523-actorid-upis">NSO0:2CLPS2</Identifier>
+		</Receiver>
+		<DocumentIdentification>
+			<Standard>urn:oasis:names:specification:ubl:schema:xsd:Order-2</Standard>
+			<TypeVersion>2.1</TypeVersion>
+			<InstanceIdentifier>751060df-ac77-48fe-91ed-4f0eefbfe7eb</InstanceIdentifier>
+			<Type>Order</Type>
+			<CreationDateAndTime>2025-03-27T13:05:33.099+01:00</CreationDateAndTime>
+		</DocumentIdentification>
+		<BusinessScope>
+			<Scope>
+				<Type>DOCUMENTID</Type>
+				<InstanceIdentifier>urn:oasis:names:specification:ubl:schema:xsd:Order-2::Order##urn:fdc:peppol.eu:poacc:trns:order:3:restrictive:urn:www.agid.gov.it:trns:ordine:3.1::2.1</InstanceIdentifier>
+			</Scope>
+			<Scope>
+				<Type>PROCESSID</Type>
+				<InstanceIdentifier>urn:fdc:peppol.eu:poacc:bis:order_only:3</InstanceIdentifier>
+			</Scope>
+			<Scope>
+				<Type>COUNTRY_C1</Type>
+				<InstanceIdentifier>IT</InstanceIdentifier>
+			</Scope>
+		</BusinessScope>
+	</StandardBusinessDocumentHeader>
+	<Order xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ccts="urn:un:unece:uncefact:documentation:2" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns="urn:oasis:names:specification:ubl:schema:xsd:Order-2">
+		<cbc:CustomizationID>urn:fdc:peppol.eu:poacc:trns:order:3:restrictive:urn:www.agid.gov.it:trns:ordine:3.1</cbc:CustomizationID>
+		<cbc:ProfileID>urn:fdc:peppol.eu:poacc:bis:order_only:3</cbc:ProfileID>
+		<cbc:ID>2025PA1298</cbc:ID>
+		<cbc:IssueDate>2025-03-26</cbc:IssueDate>
+		<cbc:OrderTypeCode>220</cbc:OrderTypeCode>
+		<cbc:Note><![CDATA[Per gli ordini NSO si ricorda di riportare, sulle relative fatture, la tripletta di identificazione dell'ordine come da regole tecniche MEF - paragrafo 8.1]]></cbc:Note>
+		<cbc:DocumentCurrencyCode>EUR</cbc:DocumentCurrencyCode>
+		<cac:ValidityPeriod>
+			<cbc:EndDate>2025-12-31</cbc:EndDate>
+		</cac:ValidityPeriod>
+		<cac:BuyerCustomerParty>
+			<cac:Party>
+				<cbc:EndpointID schemeID="0201">WIKJRE</cbc:EndpointID>
+				<cac:PartyName>
+					<cbc:Name><![CDATA[AGENZIA DI TUTELA DELLA SALUTE DELLA VAL PADANA]]></cbc:Name>
+				</cac:PartyName>
+				<cac:PostalAddress>
+					<cbc:StreetName><![CDATA[Via Dei Toscani, 1]]></cbc:StreetName>
+					<cbc:CityName><![CDATA[Mantova]]></cbc:CityName>
+					<cbc:PostalZone>46100</cbc:PostalZone>
+					<cbc:CountrySubentity>MN</cbc:CountrySubentity>
+					<cac:Country>
+						<cbc:IdentificationCode listID="ISO3166-1:Alpha2">IT</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:PostalAddress>
+				<cac:PartyTaxScheme>
+					<cbc:CompanyID schemeID="0211">IT02481970206</cbc:CompanyID>
+					<cac:TaxScheme>
+						<cbc:ID>VAT</cbc:ID>
+					</cac:TaxScheme>
+				</cac:PartyTaxScheme>
+				<cac:PartyLegalEntity>
+					<cbc:RegistrationName><![CDATA[AGENZIA DI TUTELA DELLA SALUTE DELLA VAL PADANA]]></cbc:RegistrationName>
+					<cac:RegistrationAddress>
+						<cbc:CityName><![CDATA[Mantova]]></cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode listID="ISO3166-1:Alpha2">IT</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:RegistrationAddress>
+				</cac:PartyLegalEntity>
+				<cac:Contact>
+					<cbc:Name><![CDATA[Dipartimento PAAPSS]]></cbc:Name>
+					<cbc:ElectronicMail>dipartimento.paapss@ats-valpadana.it</cbc:ElectronicMail>
+				</cac:Contact>
+			</cac:Party>
+		</cac:BuyerCustomerParty>
+		<cac:SellerSupplierParty>
+			<cac:Party>
+				<cbc:EndpointID schemeID="0201">2CLPS2</cbc:EndpointID>
+				<cac:PartyIdentification>
+					<cbc:ID>02481840201</cbc:ID>
+				</cac:PartyIdentification>
+				<cac:PartyName>
+					<cbc:Name><![CDATA[ASST DI MANTOVA -AZIENDA SOCIO SANITARIA TERRITOR. DI MANTOVA]]></cbc:Name>
+				</cac:PartyName>
+				<cac:PostalAddress>
+					<cbc:StreetName><![CDATA[STRADA LAGO PAIOLO 10]]></cbc:StreetName>
+					<cbc:CityName><![CDATA[MANTOVA]]></cbc:CityName>
+					<cbc:PostalZone>46100</cbc:PostalZone>
+					<cbc:CountrySubentity>MN</cbc:CountrySubentity>
+					<cac:Country>
+						<cbc:IdentificationCode listID="ISO3166-1:Alpha2">IT</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:PostalAddress>
+				<cac:PartyLegalEntity>
+					<cbc:RegistrationName><![CDATA[ASST DI MANTOVA -AZIENDA SOCIO SANITARIA TERRITOR. DI MANTOVA]]></cbc:RegistrationName>
+					<cac:RegistrationAddress>
+						<cbc:CityName><![CDATA[MANTOVA]]></cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode listID="ISO3166-1:Alpha2">IT</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:RegistrationAddress>
+				</cac:PartyLegalEntity>
+				<cac:Contact>
+					<cbc:Name><![CDATA[Cristina Cortellazzi]]></cbc:Name>
+				</cac:Contact>
+			</cac:Party>
+		</cac:SellerSupplierParty>
+		<cac:AccountingCustomerParty>
+			<cac:Party>
+				<cbc:EndpointID schemeID="0201">QMP3ZV</cbc:EndpointID>
+				<cac:PartyName>
+					<cbc:Name><![CDATA[AGENZIA DI TUTELA DELLA SALUTE DELLA VAL PADANA]]></cbc:Name>
+				</cac:PartyName>
+				<cac:PostalAddress>
+					<cbc:StreetName><![CDATA[Via Dei Toscani, 1]]></cbc:StreetName>
+					<cbc:CityName><![CDATA[Mantova]]></cbc:CityName>
+					<cbc:PostalZone>46100</cbc:PostalZone>
+					<cbc:CountrySubentity>MN</cbc:CountrySubentity>
+					<cac:Country>
+						<cbc:IdentificationCode listID="ISO3166-1:Alpha2">IT</cbc:IdentificationCode>
+					</cac:Country>
+				</cac:PostalAddress>
+				<cac:PartyTaxScheme>
+					<cbc:CompanyID schemeID="0211">IT02481970206</cbc:CompanyID>
+					<cac:TaxScheme>
+						<cbc:ID>VAT</cbc:ID>
+					</cac:TaxScheme>
+				</cac:PartyTaxScheme>
+				<cac:PartyLegalEntity>
+					<cbc:RegistrationName><![CDATA[AGENZIA DI TUTELA DELLA SALUTE DELLA VAL PADANA]]></cbc:RegistrationName>
+					<cac:RegistrationAddress>
+						<cbc:CityName><![CDATA[Mantova]]></cbc:CityName>
+						<cac:Country>
+							<cbc:IdentificationCode listID="ISO3166-1:Alpha2">IT</cbc:IdentificationCode>
+						</cac:Country>
+					</cac:RegistrationAddress>
+				</cac:PartyLegalEntity>
+			</cac:Party>
+		</cac:AccountingCustomerParty>
+		<cac:PaymentTerms>
+			<cbc:Note><![CDATA[60 gg data ricevimento fattura]]></cbc:Note>
+		</cac:PaymentTerms>
+		<cac:TaxTotal>
+			<cbc:TaxAmount currencyID="EUR">0.00</cbc:TaxAmount>
+		</cac:TaxTotal>
+		<cac:AnticipatedMonetaryTotal>
+			<cbc:LineExtensionAmount currencyID="EUR">15378900.00</cbc:LineExtensionAmount>
+			<cbc:TaxExclusiveAmount currencyID="EUR">15378900.00</cbc:TaxExclusiveAmount>
+			<cbc:TaxInclusiveAmount currencyID="EUR">15378900.00</cbc:TaxInclusiveAmount>
+			<cbc:PayableAmount currencyID="EUR">15378900.00</cbc:PayableAmount>
+		</cac:AnticipatedMonetaryTotal>
+		<cac:OrderLine>
+			<cbc:Note><![CDATA[Acc. apr. - ricoveri]]></cbc:Note>
+			<cac:LineItem>
+				<cbc:ID>1</cbc:ID>
+				<cbc:Quantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:Quantity>
+				<cbc:LineExtensionAmount currencyID="EUR">10168300.00</cbc:LineExtensionAmount>
+				<cbc:PartialDeliveryIndicator>true</cbc:PartialDeliveryIndicator>
+				<cbc:AccountingCost>ABA710#P0000990099</cbc:AccountingCost>
+				<cac:Delivery>
+					<cac:RequestedDeliveryPeriod>
+						<cbc:StartDate>2025-04-01</cbc:StartDate>
+						<cbc:EndDate>2025-04-30</cbc:EndDate>
+					</cac:RequestedDeliveryPeriod>
+				</cac:Delivery>
+				<cac:Price>
+					<cbc:PriceAmount currencyID="EUR">10168300.00000000</cbc:PriceAmount>
+					<cbc:BaseQuantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:BaseQuantity>
+				</cac:Price>
+				<cac:Item>
+					<cbc:Description><![CDATA[ACCONTI DRG A FORNITORI]]></cbc:Description>
+					<cbc:Name><![CDATA[ACCONTI DRG A FORNITORI]]></cbc:Name>
+					<cac:BuyersItemIdentification>
+						<cbc:ID>ACCO.103250050</cbc:ID>
+					</cac:BuyersItemIdentification>
+					<cac:ItemSpecificationDocumentReference>
+						<cbc:ID>ES27</cbc:ID>
+					</cac:ItemSpecificationDocumentReference>
+					<cac:ClassifiedTaxCategory>
+						<cbc:ID>E</cbc:ID>
+						<cbc:Percent>0.00</cbc:Percent>
+						<cac:TaxScheme>
+							<cbc:ID>VAT</cbc:ID>
+						</cac:TaxScheme>
+					</cac:ClassifiedTaxCategory>
+					<cac:AdditionalItemProperty>
+						<cbc:Name>Tipologia Ordinativo</cbc:Name>
+						<cbc:Value><![CDATA[DIRETTO]]></cbc:Value>
+					</cac:AdditionalItemProperty>
+				</cac:Item>
+			</cac:LineItem>
+		</cac:OrderLine>
+		<cac:OrderLine>
+			<cbc:Note><![CDATA[Acc. apr. - sub acuti]]></cbc:Note>
+			<cac:LineItem>
+				<cbc:ID>2</cbc:ID>
+				<cbc:Quantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:Quantity>
+				<cbc:LineExtensionAmount currencyID="EUR">155600.00</cbc:LineExtensionAmount>
+				<cbc:PartialDeliveryIndicator>true</cbc:PartialDeliveryIndicator>
+				<cbc:AccountingCost>ABA710#P0000990099</cbc:AccountingCost>
+				<cac:Delivery>
+					<cac:RequestedDeliveryPeriod>
+						<cbc:StartDate>2025-04-01</cbc:StartDate>
+						<cbc:EndDate>2025-04-30</cbc:EndDate>
+					</cac:RequestedDeliveryPeriod>
+				</cac:Delivery>
+				<cac:Price>
+					<cbc:PriceAmount currencyID="EUR">155600.00000000</cbc:PriceAmount>
+					<cbc:BaseQuantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:BaseQuantity>
+				</cac:Price>
+				<cac:Item>
+					<cbc:Description><![CDATA[ACCONTI DRG A FORNITORI]]></cbc:Description>
+					<cbc:Name><![CDATA[ACCONTI DRG A FORNITORI]]></cbc:Name>
+					<cac:BuyersItemIdentification>
+						<cbc:ID>ACCO.103250050</cbc:ID>
+					</cac:BuyersItemIdentification>
+					<cac:ItemSpecificationDocumentReference>
+						<cbc:ID>ES27</cbc:ID>
+					</cac:ItemSpecificationDocumentReference>
+					<cac:ClassifiedTaxCategory>
+						<cbc:ID>E</cbc:ID>
+						<cbc:Percent>0.00</cbc:Percent>
+						<cac:TaxScheme>
+							<cbc:ID>VAT</cbc:ID>
+						</cac:TaxScheme>
+					</cac:ClassifiedTaxCategory>
+					<cac:AdditionalItemProperty>
+						<cbc:Name>Tipologia Ordinativo</cbc:Name>
+						<cbc:Value><![CDATA[DIRETTO]]></cbc:Value>
+					</cac:AdditionalItemProperty>
+				</cac:Item>
+			</cac:LineItem>
+		</cac:OrderLine>
+		<cac:OrderLine>
+			<cbc:Note><![CDATA[Acc. apr. - ambulatoriale]]></cbc:Note>
+			<cac:LineItem>
+				<cbc:ID>3</cbc:ID>
+				<cbc:Quantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:Quantity>
+				<cbc:LineExtensionAmount currencyID="EUR">3966100.00</cbc:LineExtensionAmount>
+				<cbc:PartialDeliveryIndicator>true</cbc:PartialDeliveryIndicator>
+				<cbc:AccountingCost>ABA710#P0000990099</cbc:AccountingCost>
+				<cac:Delivery>
+					<cac:RequestedDeliveryPeriod>
+						<cbc:StartDate>2025-04-01</cbc:StartDate>
+						<cbc:EndDate>2025-04-30</cbc:EndDate>
+					</cac:RequestedDeliveryPeriod>
+				</cac:Delivery>
+				<cac:Price>
+					<cbc:PriceAmount currencyID="EUR">3966100.00000000</cbc:PriceAmount>
+					<cbc:BaseQuantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:BaseQuantity>
+				</cac:Price>
+				<cac:Item>
+					<cbc:Description><![CDATA[ACCONTI AMBULATORIALI A FORNITORI]]></cbc:Description>
+					<cbc:Name><![CDATA[ACCONTI AMBULATORIALI A FORNIT]]></cbc:Name>
+					<cac:BuyersItemIdentification>
+						<cbc:ID>ACCO.103250051</cbc:ID>
+					</cac:BuyersItemIdentification>
+					<cac:ItemSpecificationDocumentReference>
+						<cbc:ID>ES27</cbc:ID>
+					</cac:ItemSpecificationDocumentReference>
+					<cac:ClassifiedTaxCategory>
+						<cbc:ID>E</cbc:ID>
+						<cbc:Percent>0.00</cbc:Percent>
+						<cac:TaxScheme>
+							<cbc:ID>VAT</cbc:ID>
+						</cac:TaxScheme>
+					</cac:ClassifiedTaxCategory>
+					<cac:AdditionalItemProperty>
+						<cbc:Name>Tipologia Ordinativo</cbc:Name>
+						<cbc:Value><![CDATA[DIRETTO]]></cbc:Value>
+					</cac:AdditionalItemProperty>
+				</cac:Item>
+			</cac:LineItem>
+		</cac:OrderLine>
+		<cac:OrderLine>
+			<cbc:Note><![CDATA[Acc. apr. - psichiatria]]></cbc:Note>
+			<cac:LineItem>
+				<cbc:ID>4</cbc:ID>
+				<cbc:Quantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:Quantity>
+				<cbc:LineExtensionAmount currencyID="EUR">890900.00</cbc:LineExtensionAmount>
+				<cbc:PartialDeliveryIndicator>true</cbc:PartialDeliveryIndicator>
+				<cbc:AccountingCost>ABA710#P0000990099</cbc:AccountingCost>
+				<cac:Delivery>
+					<cac:RequestedDeliveryPeriod>
+						<cbc:StartDate>2025-04-01</cbc:StartDate>
+						<cbc:EndDate>2025-04-30</cbc:EndDate>
+					</cac:RequestedDeliveryPeriod>
+				</cac:Delivery>
+				<cac:Price>
+					<cbc:PriceAmount currencyID="EUR">890900.00000000</cbc:PriceAmount>
+					<cbc:BaseQuantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:BaseQuantity>
+				</cac:Price>
+				<cac:Item>
+					<cbc:Description><![CDATA[ACCONTI PSICHIATRIA A FORNITORI]]></cbc:Description>
+					<cbc:Name><![CDATA[ACCONTI PSICHIATRIA A FORNITOR]]></cbc:Name>
+					<cac:BuyersItemIdentification>
+						<cbc:ID>ACCO.103250052</cbc:ID>
+					</cac:BuyersItemIdentification>
+					<cac:ItemSpecificationDocumentReference>
+						<cbc:ID>ES27</cbc:ID>
+					</cac:ItemSpecificationDocumentReference>
+					<cac:ClassifiedTaxCategory>
+						<cbc:ID>E</cbc:ID>
+						<cbc:Percent>0.00</cbc:Percent>
+						<cac:TaxScheme>
+							<cbc:ID>VAT</cbc:ID>
+						</cac:TaxScheme>
+					</cac:ClassifiedTaxCategory>
+					<cac:AdditionalItemProperty>
+						<cbc:Name>Tipologia Ordinativo</cbc:Name>
+						<cbc:Value><![CDATA[DIRETTO]]></cbc:Value>
+					</cac:AdditionalItemProperty>
+				</cac:Item>
+			</cac:LineItem>
+		</cac:OrderLine>
+		<cac:OrderLine>
+			<cbc:Note><![CDATA[Acc. apr. - NPIA]]></cbc:Note>
+			<cac:LineItem>
+				<cbc:ID>5</cbc:ID>
+				<cbc:Quantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:Quantity>
+				<cbc:LineExtensionAmount currencyID="EUR">198000.00</cbc:LineExtensionAmount>
+				<cbc:PartialDeliveryIndicator>true</cbc:PartialDeliveryIndicator>
+				<cbc:AccountingCost>ABA710#P0000990099</cbc:AccountingCost>
+				<cac:Delivery>
+					<cac:RequestedDeliveryPeriod>
+						<cbc:StartDate>2025-04-01</cbc:StartDate>
+						<cbc:EndDate>2025-04-30</cbc:EndDate>
+					</cac:RequestedDeliveryPeriod>
+				</cac:Delivery>
+				<cac:Price>
+					<cbc:PriceAmount currencyID="EUR">198000.00000000</cbc:PriceAmount>
+					<cbc:BaseQuantity unitCode="C62" unitCodeListID="UNECERec20">1.00000000000000000000</cbc:BaseQuantity>
+				</cac:Price>
+				<cac:Item>
+					<cbc:Description><![CDATA[ACCONTI NPI A FORNITORI]]></cbc:Description>
+					<cbc:Name><![CDATA[ACCONTI NPI A FORNITORI]]></cbc:Name>
+					<cac:BuyersItemIdentification>
+						<cbc:ID>ACCO.103250053</cbc:ID>
+					</cac:BuyersItemIdentification>
+					<cac:ItemSpecificationDocumentReference>
+						<cbc:ID>ES27</cbc:ID>
+					</cac:ItemSpecificationDocumentReference>
+					<cac:ClassifiedTaxCategory>
+						<cbc:ID>E</cbc:ID>
+						<cbc:Percent>0.00</cbc:Percent>
+						<cac:TaxScheme>
+							<cbc:ID>VAT</cbc:ID>
+						</cac:TaxScheme>
+					</cac:ClassifiedTaxCategory>
+					<cac:AdditionalItemProperty>
+						<cbc:Name>Tipologia Ordinativo</cbc:Name>
+						<cbc:Value><![CDATA[DIRETTO]]></cbc:Value>
+					</cac:AdditionalItemProperty>
+				</cac:Item>
+			</cac:LineItem>
+		</cac:OrderLine>
+	</Order>
+</StandardBusinessDocument>
